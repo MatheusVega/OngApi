@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RoPbISDFq6nVx0H8nJ98vn1SNyL9dQ9rruBoDOD9TNo1A+sW7tbueJxjYaNeW72EkmaKKOp/BaGwczXm/Zl2Vw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mathe\\source\\repos\\ApiOng\\ApiOng\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.14\\microsoft.aspnetcore.http.features.5.0.14.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

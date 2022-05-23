@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>AM.Amil.PeNaAreia.Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Util\**" />
+    <EmbeddedResource Remove="Util\**" />
+    <None Remove="Util\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.7.25" />
+    <PackageReference Include="BitArmory.ReCaptcha" Version="5.0.1" />
+    <PackageReference Include="Fbr.Library.Arquivo" Version="1.0.23" />
+    <PackageReference Include="Fbr.Library.Criptografia" Version="1.0.0" />
+    <PackageReference Include="Fbr.Library.ManipulacaoDados" Version="1.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="RestSharp" Version="107.3.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Fbr.Library.ManipulacaoDados">
+      <HintPath>Lib\Fbr.Library.ManipulacaoDados.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
